@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-Bdse03LocalGoogleFacebookLoginApplication<social-login>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.educlaas.sociallogin.Bdse03LocalGoogleFacebookLoginApplication",
+            "projectName": "social-login",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
