@@ -5,14 +5,14 @@ spring:
           registration:
             google:
               clientId: 709596880258-ok8elisit257eojds99dle592d15c951.apps.googleusercontent.com
-              clientSecret: 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
+              clientSecret: 
               redirectUri: http://localhost:8080/oauth2/callback/google
               scope:
                 - email
                 - profile
             facebook:
               clientId: 236947832731931
-              clientSecret: ac8958be7b8bccd292015f51eebab0e0
+              clientSecret: 
               redirectUri: http://localhost:8080/oauth2/callback/facebook
               scope:
                 - email
