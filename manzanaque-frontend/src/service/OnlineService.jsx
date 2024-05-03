@@ -1,6 +1,7 @@
 
 
-export const API_BASE_URL = "http://localhost:8080";
+export const API_BASE_URL = "https://vigilant-emotion-production.up.railway.app/";
+// export const API_BASE_URL = "http://localhost:8080"; // this is the default local port for api requests
 export const ACCESS_TOKEN = "accessToken";
 
 const request = (options) => {

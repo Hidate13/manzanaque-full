@@ -1,7 +1,8 @@
 import axios from "axios";
 
 
-const API_BASE_URL="http://localhost:8080/api";
+const API_BASE_URL="https://vigilant-emotion-production.up.railway.app/";
+// const API_BASE_URL="http://localhost:8080/api"; // this is the base URL for local API requests
 
 class Services{
 
