@@ -97,7 +97,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                       "/**/*.html",
                       "/**/*.css",
                       "/**/*.js",
-                      "https://vigilant-emotion-production.up.railway.app/")
+                      "https://vigilant-emotion-production.up.railway.app/**")
                       .permitAll()
                   .antMatchers("/api/**")
                       .permitAll()
