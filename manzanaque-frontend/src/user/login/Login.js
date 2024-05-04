@@ -108,9 +108,9 @@ class LoginForm extends Component {
 
         if (response.accessToken) {
           console.log(
-            "In Login Form, Login JS URI Is " + "http://localhost:3000/profile"
+            "In Login Form, Login JS URI Is " + "https://vigilant-emotion-production.up.railway.app/profile"
           );
-          window.location.replace("http://localhost:3000/profile");
+          window.location.replace("https://vigilant-emotion-production.up.railway.app/profile");
         }
       })
       .catch((error) => {
