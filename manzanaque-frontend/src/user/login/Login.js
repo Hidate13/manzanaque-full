@@ -4,7 +4,7 @@ import { checkingRole, login } from "../../service/OnlineService";
 import { Link, Redirect } from "react-router-dom";
 import Alert from "react-s-alert";
 
-export const API_BASE_URL = "https://vigilant-emotion-production.up.railway.app";
+export const API_BASE_URL = "https://manzanaque-full.vercel.app";
 export const ACCESS_TOKEN = "accessToken";
 
 class Login extends Component {
@@ -108,9 +108,9 @@ class LoginForm extends Component {
 
         if (response.accessToken) {
           console.log(
-            "In Login Form, Login JS URI Is " + "https://vigilant-emotion-production.up.railway.app/profile"
+            "In Login Form, Login JS URI Is " + "https://manzanaque-full.vercel.app/profile"
           );
-          window.location.replace("https://vigilant-emotion-production.up.railway.app/profile");
+          window.location.replace("https://manzanaque-full.vercel.app/profile");
         }
       })
       .catch((error) => {
