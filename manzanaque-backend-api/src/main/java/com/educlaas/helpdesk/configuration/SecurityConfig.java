@@ -102,7 +102,9 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                   .antMatchers("/api/**")
                       .permitAll()
                   .antMatchers("/profile",
-                		  "/ticket","/updateSpecialist")
+                		  "/ticket",
+                		  "/updateSpecialist",
+                		  "https://vigilant-emotion-production.up.railway.app/**")
                       .authenticated()
                   .anyRequest()
                       .authenticated();
