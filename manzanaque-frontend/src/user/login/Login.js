@@ -108,6 +108,7 @@ class LoginForm extends Component {
 
         if (response.accessToken) {
           console.log(
+            //  this is  for local : "http://localhost:3000/profile
             "In Login Form, Login JS URI Is " + "https://manzanaque-full.vercel.app/profile"
           );
           window.location.replace("https://manzanaque-full.vercel.app/profile");
