@@ -2,14 +2,14 @@
   "rewrites": [{ "source": "/(.*)", "destination": "/" }],
   "routes": [
     {
-      "src": "registerServiceWorker.js",
-      "headers": { "Content-Type": "application/javascript" },
-      "continue": true
+      "src": "/registerServiceWorker.js",
+      "dest": "/registerServiceWorker.js",
+      "headers": { "Content-Type": "application/javascript" }
     },
     {
       "src": "/service-worker.js",
-      "headers": { "Content-Type": "application/javascript" },
-      "continue": true
+      "dest": "/service-worker.js",
+      "headers": { "Content-Type": "application/javascript" }
     }
   ]
 }
