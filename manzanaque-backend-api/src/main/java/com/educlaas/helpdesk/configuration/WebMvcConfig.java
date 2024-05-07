@@ -11,6 +11,7 @@ public class WebMvcConfig implements WebMvcConfigurer{
 	public void addCorsMappings(CorsRegistry registry) {
 		registry.addMapping("/**")
 		.allowedOriginPatterns("*")
+		.allowedOrigins("https://manzanaque-full.vercel.app")
 		.allowedMethods("GET", "POST")
 		.allowedHeaders("*")
 		.allowCredentials(true);
