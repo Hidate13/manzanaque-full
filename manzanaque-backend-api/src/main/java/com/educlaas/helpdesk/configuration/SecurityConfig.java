@@ -97,14 +97,16 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                       "/**/*.html",
                       "/**/*.css",
                       "/**/*.js",
-                      "https://vigilant-emotion-production.up.railway.app/**")
+                      "https://vigilant-emotion-production.up.railway.app/**",
+                	  "https://manzanaque-full.vercel.app/**")
                       .permitAll()
                   .antMatchers("/api/**")
                       .permitAll()
                   .antMatchers("/profile",
                 		  "/ticket",
                 		  "/updateSpecialist",
-                		  "https://vigilant-emotion-production.up.railway.app/**")
+                		  "https://vigilant-emotion-production.up.railway.app/**",
+                		  "https://manzanaque-full.vercel.app/**")
                       .authenticated()
                   .anyRequest()
                       .authenticated();
