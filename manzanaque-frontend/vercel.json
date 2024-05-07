@@ -5,6 +5,11 @@
       "src": "registerServiceWorker.js",
       "headers": { "Content-Type": "application/javascript" },
       "continue": true
+    },
+    {
+      "src": "/service-worker.js",
+      "headers": { "Content-Type": "application/javascript" },
+      "continue": true
     }
   ]
 }
